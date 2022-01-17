@@ -1,17 +1,70 @@
+import java.util.Arrays;
+import java.util.Random;
+import java.util.stream.IntStream;
 
+/**
+ * Teaching logic to my kid!
+ */
 public class SecondLargest {
 
-    private final static int[] numbers = { 341, 273, 278, 329, 445, 402, 388, 275, 243, 334, 412,
-            393, 299, 343, 317, 265 , 999, 754};
-
     public static void main(String[] args) {
+
+        int[] number = IntStream.generate(() -> new Random().nextInt(100)).limit(100).toArray();
+
+        int testTimes = 100;
+        int[] resultTime = new int[testTimes];
+
+        System.out.println(Arrays.toString(number));
+
+        for (int i = 0; i < testTimes; i++) {
+
+            long linearTime = runLinear(number);
+
+            long sortingTime = runWithSort(number);
+
+            resultTime[i] = (int) (sortingTime / linearTime);
+
+            System.out.println(String.format("%03d times.", resultTime[i]));
+
+        }
+
+        printAverage(resultTime);
+
+    }
+
+    private static long runWithSort(int[] numbers) {
+
+        int[] numbersCopy = numbers.clone();
+
+        long startTime = System.nanoTime();
+
+        Arrays.sort(numbersCopy);
+
+        int largestValue = numbersCopy[numbersCopy.length - 1];
+        int secondLargestValue = numbersCopy[numbersCopy.length - 2];
+
+        long endTime = System.nanoTime();
+
+        long nanoTimeDiff = endTime - startTime;
+
+        String messgaeInfo = String.format("Sorting: Largest %03d, Second Largest: %03d. Total time: %06d",
+                largestValue, secondLargestValue, nanoTimeDiff);
+        System.out.println(messgaeInfo);
+
+        return nanoTimeDiff;
+
+    }
+
+    private static long runLinear(int[] numbers) {
+
+        int[] numbersCopy = numbers.clone();
 
         int largestValue = 0;
         int secondLargestValue = 0;
 
-        long startTime = System.currentTimeMillis();
+        long startTime = System.nanoTime();
 
-        for (int i : numbers) {
+        for (int i : numbersCopy) {
 
             if (i > largestValue) {
                 secondLargestValue = largestValue;
@@ -22,13 +75,29 @@ public class SecondLargest {
 
         }
 
-        long endTime = System.currentTimeMillis();
+        long endTime = System.nanoTime();
 
-        long millisDiff = endTime - startTime;
+        long nanoTimeDiff = endTime - startTime;
 
-        String messgaeInfo = String.format("Largest Value is: %03d, Seconda Largest is: %03d. Total time running: %06d",
-                largestValue, secondLargestValue, millisDiff);
+        String messgaeInfo = String.format("Linear: Largest %03d, Second Largest: %03d. Total time: %06d",
+                largestValue, secondLargestValue, nanoTimeDiff);
         System.out.println(messgaeInfo);
+
+        return nanoTimeDiff;
+
+    }
+
+    private static void printAverage(int[] numbers) {
+
+        long total = 0;
+
+        for (int i = 0; i < numbers.length; i++) {
+            total = total + numbers[i];
+        }
+
+        int average = (int) (total / numbers.length);
+
+        System.out.format("The average is: %03d", average);
 
     }
 
