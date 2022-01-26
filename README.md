@@ -25,6 +25,11 @@ There is a collection of input strings and a collection of query strings. For ea
 
 [Solution Here](./src/main/java/br/com/lefranchi/algo/sparsearrays/SparseArraysMain.java)
 
+### [Lonely Integer](https://www.hackerrank.com/challenges/one-month-preparation-kit-lonely-integer/problem?h_l=interview&h_r=next-challenge&h_v=zen&isFullScreen=false&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
+Given an array of integers, where all elements but one occur twice, find the unique element.
+
+[Solution Here](./src/main/java/br/com/lefranchi/algo/lonelyinteger/LonelyIntegerMain.java)
+
 ## Playground
 
 ### SecondLargest
