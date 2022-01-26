@@ -1,3 +1,5 @@
+package br.com.lefranchi.algo.secondlargest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
