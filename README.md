@@ -15,6 +15,13 @@ Given five positive integers, find the minimum and maximum values that can be ca
 
 [Implementation Here](./src/main/java/br/com/lefranchi/algo/minmaxsum/MinMaxSumMain.java)
 
+### [Time Conversion](https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem?h_l=interview&h_r=next-challenge&h_v=zen&isFullScreen=false&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one)
+Given a time in -hour AM/PM format, convert it to military (24-hour) time.
+
+[Implementation Here](./src/main/java/br/com/lefranchi/algo/timeconversion/TimeConversionMain.java)
+
+
+
 ## Playground
 
 ### SecondLargest
