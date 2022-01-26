@@ -10,6 +10,11 @@ Given an array of integers, calculate the ratios of its elements that are positi
 
 [Implementation Here](./src/main/java/br/com/lefranchi/algo/plusminus/PlusMinusSolution.java)
 
+### [MinMax - SUM](https://www.hackerrank.com/challenges/one-month-preparation-kit-mini-max-sum/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one)
+Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+
+[Implementation Here](./src/main/java/br/com/lefranchi/algo/minmaxsum/MinMaxSumMain.java)
+
 ## Playground
 
 ### SecondLargest
