@@ -35,6 +35,11 @@ You will be given a list of 32 bit unsigned integers. Flip all the bits (1 -> 0 
 
 [Solution Here](./src/main/java/br/com/lefranchi/algo/flippingbits/FlippingBitsMain.java)
 
+### [Diagonal Difference](https://www.hackerrank.com/challenges/one-month-preparation-kit-diagonal-difference/problem?h_l=interview&h_r=next-challenge&h_v=zen&isFullScreen=false&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
+Given a square matrix, calculate the absolute difference between the sums of its diagonals.
+
+[Solution Here](./src/main/java/br/com/lefranchi/algo/diagonaldifference/DiagonalDifferenceMain.java)
+
 ## Playground
 
 ### SecondLargest
