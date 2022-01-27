@@ -10,21 +10,11 @@ import java.util.stream.Stream;
  *
  * @author Leandro Franchi
  */
-public class PangramsMain {
+public class Pangrams {
 
-    private static final int ALPHABET_COUNT = 26;
     static final String POSITIVE_RETURN_VALUE = "pangram";
     static final String NEGATIVE_RETURN_VALUE = "not pangram";
-
-    public static void main(String[] args) {
-
-        String s = "We promptly judged antique ivory buckles for the next prize";
-
-        String retValue = pangrams(s);
-
-        System.out.println(retValue);
-
-    }
+    private static final int ALPHABET_COUNT = 26;
 
     public static String pangrams(String s) {
 
@@ -39,6 +29,7 @@ public class PangramsMain {
                 Collectors.toMap(item -> item, k -> Boolean.TRUE, (p1, p2) -> p1));
 
         return (alphabetMap.size() == ALPHABET_COUNT ? POSITIVE_RETURN_VALUE : NEGATIVE_RETURN_VALUE);
+
     }
 
 }

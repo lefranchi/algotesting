@@ -4,16 +4,16 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class PangramsMainTest {
+public class PangramsTest {
 
     @Test
     void positivePangram() {
 
         String s = "We promptly judged antique ivory buckles for the next prize";
 
-        String retValue = PangramsMain.pangrams(s);
+        String retValue = Pangrams.pangrams(s);
 
-        assertEquals(retValue, PangramsMain.POSITIVE_RETURN_VALUE);
+        assertEquals(retValue, Pangrams.POSITIVE_RETURN_VALUE);
 
     }
 
@@ -22,9 +22,9 @@ public class PangramsMainTest {
 
         String s = "Xu mptly judged antique ivory buckles for the next prize letter";
 
-        String retValue = PangramsMain.pangrams(s);
+        String retValue = Pangrams.pangrams(s);
 
-        assertEquals(retValue, PangramsMain.NEGATIVE_RETURN_VALUE);
+        assertEquals(retValue, Pangrams.NEGATIVE_RETURN_VALUE);
 
     }
 
@@ -33,9 +33,9 @@ public class PangramsMainTest {
 
         String s = null;
 
-        String retValue = PangramsMain.pangrams(s);
+        String retValue = Pangrams.pangrams(s);
 
-        assertEquals(retValue, PangramsMain.NEGATIVE_RETURN_VALUE);
+        assertEquals(retValue, Pangrams.NEGATIVE_RETURN_VALUE);
 
     }
 
