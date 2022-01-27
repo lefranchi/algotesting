@@ -1,13 +1,13 @@
 package br.com.lefranchi.algo.timeconversion;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
+/**
+ * Given a time in -hour AM/PM format, convert it to military (24-hour) time.
+ *
+ * @author Leandro Franchi
+ */
 public class TimeConversionMain {
 
     public static void main(String[] args) throws ParseException {

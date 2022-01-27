@@ -6,11 +6,12 @@ import org.slf4j.LoggerFactory;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-
 import java.util.stream.IntStream;
 
 /**
- * Teaching logic to my kid!
+ * Getting the second large int.
+ *
+ * @author Leandro Franchi
  */
 public class SecondLargest {
 

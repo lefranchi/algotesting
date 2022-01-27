@@ -3,8 +3,12 @@ package br.com.lefranchi.algo.lonelyinteger;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
+/**
+ * Given an array of integers, where all elements but one occur twice, find the unique element.
+ *
+ * @author Leandro Franchi
+ */
 public class LonelyIntegerMain {
 
     public static void main(String[] args) {

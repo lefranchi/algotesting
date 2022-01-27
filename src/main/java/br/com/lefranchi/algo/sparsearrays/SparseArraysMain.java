@@ -1,8 +1,16 @@
 package br.com.lefranchi.algo.sparsearrays;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * There is a collection of input strings and a collection of query strings. For each query string, determine
+ *  how many times it occurs in the list of input strings. Return an array of the results.
+ *
+ * @author Leandro Franchi
+ */
 public class SparseArraysMain {
 
     public static void main(String[] args) {

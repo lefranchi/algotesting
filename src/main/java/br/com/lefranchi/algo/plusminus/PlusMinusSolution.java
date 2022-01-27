@@ -3,6 +3,12 @@ package br.com.lefranchi.algo.plusminus;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. Print the
+ *  decimal value of each fraction on a new line with places after the decimal.
+ *
+ * @author Leandro Franchi
+ */
 public class PlusMinusSolution {
 
     public static void main(String[] args) {
