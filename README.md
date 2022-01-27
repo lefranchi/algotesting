@@ -45,6 +45,11 @@ Quicksort usually has a running time of n x log(n), but is there an algorithm th
 
 [Solution Here](./src/main/java/br/com/lefranchi/algo/countingsort1/CountingSort1Main.java)
 
+### [Pangram](https://www.hackerrank.com/challenges/one-month-preparation-kit-pangrams/problem?h_l=interview&isFullScreen=false&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one)
+A pangram is a string that contains every letter of the alphabet. Given a sentence determine whether it is a pangram in the English alphabet. Ignore case. Return either pangram or not pangram as appropriate.
+
+[Solution Here](./src/main/java/br/com/lefranchi/algo/pangrams/PangramsMain.java)
+
 ## Playground
 
 ### SecondLargest
