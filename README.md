@@ -30,6 +30,11 @@ Given an array of integers, where all elements but one occur twice, find the uni
 
 [Solution Here](./src/main/java/br/com/lefranchi/algo/lonelyinteger/LonelyIntegerMain.java)
 
+### [Flipping bits](https://www.hackerrank.com/challenges/one-month-preparation-kit-flipping-bits/problem?h_l=interview&h_r=next-challenge&h_v=zen&isFullScreen=false&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)
+You will be given a list of 32 bit unsigned integers. Flip all the bits (1 -> 0 and 0 -> 1) and return the result as an unsigned integer.
+
+[Solution Here](./src/main/java/br/com/lefranchi/algo/flippingbits/FlippingBitsMain.java)
+
 ## Playground
 
 ### SecondLargest
