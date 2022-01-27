@@ -1,6 +1,5 @@
-package br.com.lefranchi.algo.diagonaldifference;
+package br.com.lefranchi.hackerrank;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
@@ -10,11 +9,12 @@ import java.util.stream.IntStream;
  *
  * @author Leandro Franchi
  */
-public class DiagonalDifferenceMain {
+public class DiagonalDifference {
 
-    public static void main(String[] args) {
+    public static int diagonalDifference(List<List<Integer>> arr) {
 
-        List<List<Integer>> arr = Arrays.asList(Arrays.asList(11, 2, 4), Arrays.asList(4, 5, 6), Arrays.asList(10, 8, -12));
+        if (arr == null)
+            return 0;
 
         int n = arr.size();
         AtomicInteger d1 = new AtomicInteger(0);
@@ -25,9 +25,7 @@ public class DiagonalDifferenceMain {
             d2.addAndGet(arr.get(i).get(n - 1 - i));
         });
 
-        int diff = Math.abs(d1.intValue() - d2.intValue());
-
-        System.out.println(diff);
+        return Math.abs(d1.intValue() - d2.intValue());
 
     }
 

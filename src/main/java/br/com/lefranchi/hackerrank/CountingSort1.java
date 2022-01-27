@@ -1,5 +1,6 @@
-package br.com.lefranchi.algo.countingsort1;
+package br.com.lefranchi.hackerrank;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -11,18 +12,12 @@ import java.util.List;
  *
  * @author Leandro Franchi
  */
-public class CountingSort1Main {
-
-    public static void main(String[] args) {
-
-        //List<Integer> arr = Arrays.asList(1, 1, 3, 2, 1);
-        List<Integer> arr = Arrays.asList(1, 1, 3, 2, 1);
-
-        countingSort(arr).forEach(System.out::println);
-
-    }
+public class CountingSort1 {
 
     public static List<Integer> countingSort(List<Integer> arr) {
+
+        if (arr == null)
+            return new ArrayList<>();
 
         int n = arr.stream().mapToInt(x -> x).max().orElseGet(null);
         Integer[] resultArray = new Integer[n + 1];

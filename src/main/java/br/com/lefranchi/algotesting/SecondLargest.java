@@ -1,4 +1,4 @@
-package br.com.lefranchi.algo.secondlargest;
+package br.com.lefranchi.algotesting;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -58,9 +58,6 @@ public class SecondLargest {
 
     /**
      * This method will run using sort method (slower).
-     *
-     * @param numbers
-     * @return
      */
     private static long runWithSort(int[] numbers) {
 
@@ -97,9 +94,6 @@ public class SecondLargest {
 
     /**
      * This methos will check values on linear way (fast).
-     *
-     * @param numbers
-     * @return
      */
     private static long runLinear(int[] numbers) {
 
@@ -146,15 +140,13 @@ public class SecondLargest {
 
     /**
      * Calculate average of numbers in an array.
-     *
-     * @param numbers
      */
     private static void printAverage(int[] numbers) {
 
         long total = 0;
 
-        for (int i = 0; i < numbers.length; i++) {
-            total = total + numbers[i];
+        for (int number : numbers) {
+            total = total + number;
         }
 
         int average = (int) (total / numbers.length);

@@ -1,4 +1,4 @@
-package br.com.lefranchi.algo.pangrams;
+package br.com.lefranchi.hackerrank;
 
 import java.util.Map;
 import java.util.stream.Collectors;
