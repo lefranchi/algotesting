@@ -40,6 +40,11 @@ Given a square matrix, calculate the absolute difference between the sums of its
 
 [Solution Here](./src/main/java/br/com/lefranchi/algo/diagonaldifference/DiagonalDifferenceMain.java)
 
+### [Counting Sort 1](https://www.hackerrank.com/challenges/one-month-preparation-kit-countingsort1/problem?h_l=interview&isFullScreen=false&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one)
+Quicksort usually has a running time of n x log(n), but is there an algorithm that can sort even faster? In general, this is not possible. Most sorting algorithms are comparison sorts, i.e. they sort a list just by comparing the elements to one another. A comparison sort algorithm cannot beat n x log(n) (worst-case) running time, since n x log(n) represents the minimum number of comparisons needed to know where to place each element.
+
+[Solution Here](./src/main/java/br/com/lefranchi/algo/countingsort1/CountingSort1Main.java)
+
 ## Playground
 
 ### SecondLargest
