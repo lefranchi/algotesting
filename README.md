@@ -50,9 +50,14 @@ A pangram is a string that contains every letter of the alphabet. Given a senten
 
 [Solution Here](./src/main/java/br/com/lefranchi/hackerrank/Pangrams.java)
 
+### [Permuting Two Arrays](https://www.hackerrank.com/challenges/one-month-preparation-kit-two-arrays/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one)
+There are two n-element arrays of integers, A and B. Permute them into some A' and B' such that the relation A'[i] + B'[i] >= k holds for all i where 0 <= i < n. There will be q queries consisting of A, B, and k. For each query, return YES if some permutation A', B' satisfying the relation exists. Otherwise, return NO.
+
+[Solution Here](./src/main/java/br/com/lefranchi/hackerrank/PermutingTwoArrays.java)
+
 ## Playground
 
 ### SecondLargest
 Teaching logic to my kid! How to get second largest number on array with better performance.
 
-[Implementation Here](src/main/java/br/com/lefranchi/algotesting/secondlargest/SecondLargest.java)
+[Implementation Here](src/main/java/br/com/lefranchi/algotesting/SecondLargest.java)
