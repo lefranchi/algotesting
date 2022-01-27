@@ -55,6 +55,17 @@ There are two n-element arrays of integers, A and B. Permute them into some A' a
 
 [Solution Here](./src/main/java/br/com/lefranchi/hackerrank/PermutingTwoArrays.java)
 
+### [Subarray Division 1](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one&h_r=next-challenge&h_v=zen)
+Two children, Lily and Ron, want to share a chocolate bar. Each of the squares has an integer on it.
+Lily decides to share a contiguous segment of the bar selected such that:
+* The length of the segment matches Ron's birth month, and,
+* The sum of the integers on the squares is equal to his birth day.
+
+Determine how many ways she can divide the chocolate.
+
+[Solution Here](./src/main/java/br/com/lefranchi/hackerrank/SubarrayDivision1.java)
+
+
 ## Playground
 
 ### SecondLargest
