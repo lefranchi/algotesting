@@ -65,6 +65,11 @@ Determine how many ways she can divide the chocolate.
 
 [Solution Here](./src/main/java/br/com/lefranchi/hackerrank/SubarrayDivision1.java)
 
+### [XOR String 2](https://www.hackerrank.com/challenges/one-month-preparation-kit-strings-xor/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one)
+Given two strings consisting of digits 0 and 1 only, find the XOR of the two strings.
+
+[Solution Here](./src/main/java/br/com/lefranchi/hackerrank/XORStrings2.java)
+
 
 ## Playground
 
