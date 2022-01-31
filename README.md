@@ -70,6 +70,10 @@ Given two strings consisting of digits 0 and 1 only, find the XOR of the two str
 
 [Solution Here](./src/main/java/br/com/lefranchi/hackerrank/XORStrings2.java)
 
+### Mock Test 1
+* Find the Median - [Solution Here](./src/main/java/br/com/lefranchi/hackerrank/FindTheMedian.java)
+* Flip Matrix - [Solution Here](./src/main/java/br/com/lefranchi/hackerrank/FlippingMatrix.java)
+
 
 ## Playground
 
