@@ -6,7 +6,7 @@ def binary_search(list, item):
         mid = (low + high) // 2
         guess = list[mid]
         if guess == item:
-            return mid;
+            return mid
         if guess > item:
             high = mid - 1
         else:
@@ -15,7 +15,7 @@ def binary_search(list, item):
     return None
 
 
-# O(log2 n) -> bynary_search
+# O(log2 n) -> binary_search
 
 
 my_list = [1, 3, 5, 7, 9]
