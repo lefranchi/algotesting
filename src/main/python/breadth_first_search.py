@@ -1,5 +1,5 @@
 """
-Search on Graph implementation using Breath-first Search Algorithm!
+Breadth-first search is used to calculate the shortest path for an unweighted graph.
 """
 
 from collections import deque
